@@ -15,3 +15,20 @@ let num = 4354
 
 console.log(typeof "raj")
 console.log(typeof num)
+
+const arrayvalue =["test", 122, false]
+console.log(arrayvalue)
+
+const myObj = {
+    myname : "raje",
+    num : 223,
+    boo : true
+}
+
+console.log(typeof myObj)
+console.log(myObj)
+const myFun = function() {
+    console.log("hello world")
+}
+
+console.log(typeof myFun)
