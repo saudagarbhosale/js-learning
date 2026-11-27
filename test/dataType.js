@@ -30,5 +30,21 @@ console.log(myObj)
 const myFun = function() {
     console.log("hello world")
 }
-
 console.log(typeof myFun)
+
+
+////stack (primitive) memory // its provide copy of value in stack
+let names = "raj"
+let name1 = names
+console.log(name1)
+
+//and heap (non primitive) memory // its provide direct reference of value in heap
+let useOne = {
+    email: "raj@raj.com",
+    id: 124
+}
+
+let useTwo = useOne
+useTwo.email = "sam@sam.com"
+console.log(useOne.email)
+console.log(useTwo.email)
